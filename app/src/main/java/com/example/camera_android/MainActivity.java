@@ -63,6 +63,15 @@ public class MainActivity extends AppCompatActivity {
         if (Objects.equals(result.getContents(), "Дом")) {
             Intent homeIntent = new Intent(MainActivity.this, HomeActivity.class);
             startActivity(homeIntent);
+        } else if (Objects.equals(result.getContents(), "Ли Сынги")) {
+            Intent sunghiIntent = new Intent(MainActivity.this, LiSungGhiActivity.class);
+            startActivity(sunghiIntent);
+        } else if (Objects.equals(result.getContents(), "Ким Ён Кван")) {
+            Intent kvanIntent = new Intent(MainActivity.this, KimYongKvanActivity.class);
+            startActivity(kvanIntent);
+        } else if (Objects.equals(result.getContents(), "Чхве У Шик")) {
+            Intent shickIntent = new Intent(MainActivity.this, ChveUshikActivity.class);
+            startActivity(shickIntent);
         }
     });
 }

@@ -18,6 +18,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Camera_Android">
         <activity
+            android:name=".ChveUshikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KimYongKvanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LiSungGhiActivity"
+            android:exported="false" />
+        <activity
             android:name=".HomeActivity"
             android:exported="false" />
         <activity
